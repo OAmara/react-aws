@@ -1,7 +1,9 @@
 import React, { } from 'react';
+import { BrowserRouter as Router } from "react-router-dom";
 import './App.css';
 
 function App() {
+  // Router will start in app or will live in route container for seperation of concerns.
   return (
     <div className="App">
     <h3>Login/Register</h3>
