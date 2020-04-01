@@ -1,8 +1,13 @@
 import React from 'react'
+import SellerLogin from './SellerLogin'
+import SellerRegister from './SellerRegister'
 
 export default function SellerAuth() {
 
 	return(
-		<h1>seller container</h1>
+		<React.Fragment>
+			<SellerLogin />
+			<SellerRegister />
+		</React.Fragment>
 	)
 }

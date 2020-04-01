@@ -8,8 +8,9 @@ export default function Routes(props) {
 	return(
 		<React.Fragment>
 			<h1>Route here</h1>
-			<SellerAuth />
 			<BuyerAuth />
+			<button>Seller's Login</button>
+			<SellerAuth />
 			{
 				// create seperate User login components here and route then redirect upon login/ register 'success'.
 				// ^In components, create seperate forms using styled components

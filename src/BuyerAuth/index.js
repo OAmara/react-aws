@@ -1,8 +1,13 @@
 import React from 'react'
+import BuyerLogin from './BuyerLogin'
+import BuyerRegister from './BuyerRegister'
 
 export default function BuyerAuth() {
 
 	return(
-		<h1>buyer container</h1>
+		<React.Fragment>
+			<BuyerLogin />
+			<BuyerRegister />
+		</React.Fragment>
 	)
 }
