@@ -7,7 +7,7 @@ function App() {
   // Router will start in app or will live in route container for seperation of concerns.
   return (
     <div className="App">
-      <h3>Login/Register</h3>
+      <header>Login/Register Header</header>
       {/*
         <h1>Hello. Start of login with router and hooks.</h1>
         <h2>Set-up form with state to process body content for fetch response to login & register</h2>
@@ -15,6 +15,7 @@ function App() {
       <Router>
         <Routes />
       </Router>
+      <footer>login/register footer</footer>
     </div>
   );
 }
